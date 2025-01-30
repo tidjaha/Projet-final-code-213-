@@ -161,7 +161,7 @@ def main():
           text = """<div style="text-align: center; font-size: 60px;color: red;">The offer needs to be reviewed, as the subscriber has no intention of renewing.</div>"""
           st.markdown(text, unsafe_allow_html=True)
         st.write("Copyrights tidjaha jan-2025 !")
-        st.image(
+        st.image("cv_qr_code.png")
 
 
 
