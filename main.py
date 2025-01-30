@@ -149,7 +149,7 @@ def main():
     if st.button('Predictions'):
 
         predictions = predict(input_data)
-        st.write(predictions)
+        
         if predictions==False:
           emoji='''<div style="font-size: 200px; text-align: center;">😍</div>'''
           st.markdown(emoji, unsafe_allow_html=True)
